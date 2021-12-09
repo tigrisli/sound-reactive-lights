@@ -1,1 +1,1 @@
-# sound-reactive-lights
+# Sound Reactive Lights Tutorial
