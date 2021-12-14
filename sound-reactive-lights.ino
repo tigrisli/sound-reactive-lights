@@ -32,36 +32,36 @@ void loop() {
   soundSensor = soundSensor*2;
 
   // defining the parameters of sound impact to trigger coloured lights
-  if ((soundSensor>=450) && (soundSensor<=550)) { 
+  if ((soundSensor>=550) && (soundSensor<=600)) { 
    leds[(NUM_LEDS/2)-1]=CRGB (0, 0, 255);
    leds[NUM_LEDS/2]=CRGB (0, 0, 255);
   }
-  else if ((soundSensor>=400) && (soundSensor<=450)) {
+  else if ((soundSensor>=500) && (soundSensor<=550)) {
    leds[(NUM_LEDS/2)-1]=CRGB (153, 153, 0);
    leds[NUM_LEDS/2]=CRGB (153, 153, 0);
   }
-  else if ((soundSensor>=350) && (soundSensor<=400)) {
+  else if ((soundSensor>=450) && (soundSensor<=500)) {
    leds[(NUM_LEDS/2)-1]=CRGB (255, 50, 255);
    leds[NUM_LEDS/2]=CRGB (255, 50, 255);
   }
-  else if ((soundSensor>=300) && (soundSensor<=350)) {
+  else if ((soundSensor>=400) && (soundSensor<=450)) {
    leds[(NUM_LEDS/2)-1]=CRGB (10, 25, 210);
    leds[NUM_LEDS/2]=CRGB (10, 25, 210);
   }
-  else if ((soundSensor>=276) && (soundSensor<=300)) {
+  else if ((soundSensor>=350) && (soundSensor<=400)) {
    leds[(NUM_LEDS/2)-1]=CRGB (50, 50, 150);
    leds[NUM_LEDS/2]=CRGB (50, 50, 150);
   }
-  else if ((soundSensor>=250) && (soundSensor<=275)) {
+  else if ((soundSensor>=300) && (soundSensor<=350)) {
    leds[(NUM_LEDS/2)-1]=CRGB (230, 0, 0);
    leds[NUM_LEDS/2]=CRGB (230, 0, 0);
   }
   
-  else if ((soundSensor>=235) && (soundSensor<=250)) {
+  else if ((soundSensor>=250) && (soundSensor<=300)) {
     leds[(NUM_LEDS/2)-1]=CRGB (0, 180, 0);
     leds[NUM_LEDS/2]=CRGB (0, 180, 0);
   }
-  else if ((soundSensor>=200) && (soundSensor<=230)) {
+  else if ((soundSensor>=200) && (soundSensor<=250)) {
     leds[(NUM_LEDS/2)-1]=CRGB (1, 0, 1);
     leds[NUM_LEDS/2]=CRGB (1, 0, 1);
   }
