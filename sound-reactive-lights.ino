@@ -56,7 +56,6 @@ void loop() {
    leds[(NUM_LEDS/2)-1]=CRGB (230, 0, 0);
    leds[NUM_LEDS/2]=CRGB (230, 0, 0);
   }
-  
   else if ((soundSensor>=250) && (soundSensor<=300)) {
     leds[(NUM_LEDS/2)-1]=CRGB (0, 180, 0);
     leds[NUM_LEDS/2]=CRGB (0, 180, 0);
@@ -75,6 +74,6 @@ void loop() {
   }
   
  FastLED.show();
- delay(25);
+ delay(20);
 
 }
