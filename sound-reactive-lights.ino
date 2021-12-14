@@ -1,8 +1,8 @@
 #include <FastLED.h>
 
-int r=152;
-int g=20;
-int b=10;
+int r = 152;
+int g = 20;
+int b = 10;
 
 #define LED_PIN     5            // data pin for LED light (DIN)
 #define NUM_LEDS    60           // the number of LED lights in your strip
